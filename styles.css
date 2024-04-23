@@ -1,0 +1,14 @@
+body{
+    font-family: Roboto, sans-serif;
+    color:blueviolet;
+    background-color:aqua;
+    font-weight:normal;
+}
+
+p{
+    font-size: 14px;
+    line-height:1.5x;
+}
+button{
+    cursor: pointer;
+}
