@@ -11,6 +11,18 @@ p{
     line-height:1;
 
 }
+.nav-label ul:first-child a{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+
+}
+
+.nav-label ul:first-child a{
+    background-color: #404BBF;
+    cursor: pointer;
+}
 .section-one>.order-button{
     cursor: pointer;
     background-color: #4D5AE5;
@@ -21,10 +33,7 @@ p{
     letter-spacing: 0.04em;
     color: #ffffff;
 }
-.section-one>.order-button:hover{
-    background-color: #404BBF;
-    cursor: pointer;
-}
+
 .a-link-one{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -48,13 +57,13 @@ span{
 .a-links:hover{
     color: #404bbf;
 }
-.contacts{
+.contacts a{
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
 }
-.contacts:hover{
+.contacts a:hover{
     color: #404bbf ;
 }
 .section-one{
@@ -71,7 +80,7 @@ span{
     color: #ffffff;
 }
 
-.section-two>h1{
+.section-two>.list-header{
     font-weight: 500;
     font-size: 20px ;
     line-height: 1.2;
@@ -109,8 +118,9 @@ span{
 }
 .section-three{
     background-color: #F4F4FD;
+
 }
-.section-three h3{
+.section-three h2{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -118,18 +128,36 @@ span{
     text-transform: capitalize;
     color: #2e2f42;
 }
-.ot-list>img{
+.section-three li{
+    background-color: #FFFFFF;
+
+}
+.section-three h2{
+    font-weight: 500 ;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42 ;
+
+}
+.section-three p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+.section-four>img{
     width:360;
 
 }
-.ot-list>h3{
+.section-four>h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
 }
-.ot-list>p{
+.section-four>p{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
