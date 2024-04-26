@@ -33,7 +33,9 @@ p{
     letter-spacing: 0.04em;
     color: #ffffff;
 }
-
+.section-one>.order-button:hover{
+    background-color: #404BBF;
+}
 .a-link-one{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -80,7 +82,7 @@ span{
     color: #ffffff;
 }
 
-.section-two>.list-header{
+.section-two>.twoo-header{
     font-weight: 500;
     font-size: 20px ;
     line-height: 1.2;
