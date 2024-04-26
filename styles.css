@@ -36,6 +36,9 @@ p{
 .section-one>.order-button:hover{
     background-color: #404BBF;
 }
+.section-one>.order-button:visited{
+    background-color: #404BBF;
+}
 .a-link-one{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -48,16 +51,18 @@ p{
 span{
     color:#2e2f42;
 }
-.list-one:first-child{
+.list-one:first-child .a-links{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-#first-link{
     color:#2e2f42;
 }
-.a-links:hover{
+
+.list-one:first-child .a-links:hover{
     color: #404bbf;
+}
+.contacts{
+    font-style: normal;
 }
 .contacts a{
     font-style: normal;
@@ -65,7 +70,7 @@ span{
     letter-spacing: 0.02em;
     color:#434455;
 }
-.contacts a:hover{
+.contacts a:visited{
     color: #404bbf ;
 }
 .section-one{
