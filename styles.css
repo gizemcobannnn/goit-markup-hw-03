@@ -11,15 +11,27 @@ p{
     line-height:1;
 
 }
-.nav-label ul:first-child a{
-    font-weight: 500;
+.nav-label>.list-one:first-child{
+    font-weight: 1500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    
+}
+.a-links-one{
+    font-weight: 1500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
 }
 
-.nav-label ul:first-child a:hover{
-    background-color: #404BBF;
+.a-links-one:hover{
+    color: #404BBF;
     cursor: pointer;
+}
+.a-links-one:focus{
+    color: #404BBF;
+    cursor: pointer;
+
 }
 .section-one>.order-button{
     cursor: pointer;
