@@ -11,7 +11,7 @@ p{
     line-height:1;
 
 }
-.nav-label ul:first-child .list-header{
+.nav-label ul:first-child a{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -19,7 +19,7 @@ p{
 
 }
 
-.nav-label ul:first-child .list-header{
+.nav-label ul:first-child a:hover{
     background-color: #404BBF;
     cursor: pointer;
 }
@@ -87,7 +87,7 @@ span{
     color: #ffffff;
 }
 
-.section-two>.twoo-header{
+.section-two>h2{
     font-weight: 500;
     font-size: 20px ;
     line-height: 1.2;
