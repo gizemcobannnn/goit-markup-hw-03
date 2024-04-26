@@ -11,7 +11,7 @@ p{
     line-height:1;
 
 }
-.nav-label ul:first-child a{
+.nav-label ul:first-child .list-header{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -19,7 +19,7 @@ p{
 
 }
 
-.nav-label ul:first-child a{
+.nav-label ul:first-child .list-header{
     background-color: #404BBF;
     cursor: pointer;
 }
@@ -108,7 +108,7 @@ span{
     color:#4d5ae5 ;
     
 }
-.footer>span{
+.footer .spans{
     color: #f4f4fd;
 }
 .footer>p{
@@ -120,7 +120,7 @@ span{
     background-color: #F4F4FD;
 
 }
-.section-three h2{
+.section-three .du-header{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -132,7 +132,7 @@ span{
     background-color: #FFFFFF;
 
 }
-.section-three h2{
+.section-three .list-header{
     font-weight: 500 ;
     font-size: 20px;
     line-height: 1.2;
