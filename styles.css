@@ -7,28 +7,28 @@ body{
 
 p{
     font-size: 14px;
-    line-height:1x;
+    line-height:1;
 
 }
-.order-button{
+.section-one>.order-button{
     cursor: pointer;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif ;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5x;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
 }
-.order-button:hover{
+.section-one>.order-button:hover{
     background-color: #404BBF;
-    ursor: pointer;
+    cursor: pointer;
 }
 .a-link-one{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17x;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4d5ae5;
@@ -38,7 +38,7 @@ span{
 }
 .list-one:first-child{
     font-weight: 500;
-    line-height: 1.5x;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 #first-link{
@@ -49,7 +49,7 @@ span{
 }
 .contacts{
     font-style: normal;
-    line-height: 1.5x;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
 }
@@ -62,21 +62,25 @@ span{
     letter-spacing: 0.02em;
     color: #ffffff;
 }
-#first-header{
-    font-size: 56px ;
-    line-height: 1.07x;
+.section-one>h1{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
-.list-header{
+
+.section-two>h1{
     font-weight: 500;
     font-size: 20px ;
-    line-height: 1.2x;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
 
 }
-p-class{
+.section-two p{
     font-size: 16px ;
-    line-height: 1.5x;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455 ;
 
@@ -88,7 +92,7 @@ p-class{
     font-family: "Raleway", sans-serif ;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17x;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4d5ae5 ;
@@ -98,7 +102,34 @@ p-class{
     color: #f4f4fd;
 }
 .footer>p{
-    line-height: 1.5x;
+    line-height: 1.5;
     color:#F4F4FD;
     letter-spacing: 0.02em;
+}
+.our-team>h2{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+
+}
+.ot-list>img{
+    width:360;
+
+}
+.ot-list>h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+.ot-list>p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+
 }
