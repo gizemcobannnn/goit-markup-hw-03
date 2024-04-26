@@ -15,8 +15,6 @@ p{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
-
 }
 
 .nav-label ul:first-child a:hover{
@@ -36,7 +34,7 @@ p{
 .section-one>.order-button:hover{
     background-color: #404BBF;
 }
-.section-one>.order-button:visited{
+.section-one>.order-button:focus{
     background-color: #404BBF;
 }
 .a-link-one{
