@@ -12,4 +12,93 @@ p{
 }
 .order-button{
     cursor: pointer;
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5x;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+.order-button:hover{
+    background-color: #404BBF;
+    ursor: pointer;
+}
+.a-link-one{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17x;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5;
+}
+span{
+    color:#2e2f42;
+}
+.list-one:first-child{
+    font-weight: 500;
+    line-height: 1.5x;
+    letter-spacing: 0.02em;
+}
+#first-link{
+    color:#2e2f42;
+}
+.a-links:hover{
+    color: #404bbf;
+}
+.contacts{
+    font-style: normal;
+    line-height: 1.5x;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+.contacts:hover{
+    color: #404bbf ;
+}
+.section-one{
+    background-color: #2e2f42;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+#first-header{
+    font-size: 56px ;
+    line-height: 1.07x;
+}
+.list-header{
+    font-weight: 500;
+    font-size: 20px ;
+    line-height: 1.2x;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+
+}
+p-class{
+    font-size: 16px ;
+    line-height: 1.5x;
+    letter-spacing: 0.02em;
+    color:#434455 ;
+
+}
+
+
+.footer{
+    background-color: #2e2f42;
+    font-family: "Raleway", sans-serif ;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17x;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5 ;
+    
+}
+.footer>span{
+    color: #f4f4fd;
+}
+.footer>p{
+    line-height: 1.5x;
+    color:#F4F4FD;
+    letter-spacing: 0.02em;
 }
