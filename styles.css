@@ -1,14 +1,15 @@
 body{
     font-family: Roboto, sans-serif;
-    color:blueviolet;
-    background-color:aqua;
+    color:black;
+    background-color:white;
     font-weight:normal;
 }
 
 p{
     font-size: 14px;
     line-height:1x;
+
 }
-button{
+.order-button{
     cursor: pointer;
 }
