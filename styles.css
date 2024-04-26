@@ -18,7 +18,7 @@ p{
     
 }
 .a-links-one{
-    font-weight: 1500;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2e2f42;
@@ -114,7 +114,7 @@ span{
 }
 
 
-.footer{
+.footer-m{
     background-color: #2e2f42;
     font-family: "Raleway", sans-serif ;
     font-weight: 700;
@@ -125,12 +125,12 @@ span{
     color:#4d5ae5 ;
     
 }
-.footer .spans{
+.footer-m .spans{
     color: #f4f4fd;
 }
-.footer>p{
+.footer-m>p{
     line-height: 1.5;
-    color:#F4F4FD;
+    color:#4d5ae5;
     letter-spacing: 0.02em;
 }
 .section-three{
