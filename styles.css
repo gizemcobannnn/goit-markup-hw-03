@@ -1,8 +1,9 @@
 body{
     font-family: Roboto, sans-serif;
-    color:black;
+    color:#434455;
     background-color:white;
     font-weight:normal;
+    
 }
 
 p{
@@ -106,14 +107,16 @@ span{
     color:#F4F4FD;
     letter-spacing: 0.02em;
 }
-.our-team>h2{
+.section-three{
+    background-color: #F4F4FD;
+}
+.section-three h3{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-
 }
 .ot-list>img{
     width:360;
