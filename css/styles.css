@@ -97,7 +97,7 @@ span{
     color: #ffffff;
 }
 
-.section-two>h2{
+.section-two .third-header{
     font-weight: 500;
     font-size: 20px ;
     line-height: 1.2;
@@ -113,26 +113,6 @@ span{
 
 }
 
-
-.footer-m{
-    background-color: #2e2f42;
-    font-family: "Raleway", sans-serif ;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color:#4d5ae5 ;
-    
-}
-.footer-m .spans{
-    color: #f4f4fd;
-}
-.footer-m>p{
-    line-height: 1.5;
-    color:#4d5ae5;
-    letter-spacing: 0.02em;
-}
 .section-three{
     background-color: #F4F4FD;
 
@@ -188,4 +168,24 @@ span{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
+}
+
+.footer-m{
+    background-color: #2e2f42;
+    font-family: "Raleway", sans-serif ;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5 ;
+    
+}
+.footer-m .spans{
+    color: #f4f4fd;
+}
+.footer-m>p{
+    line-height: 1.5;
+    color:#4d5ae5;
+    letter-spacing: 0.02em;
 }
