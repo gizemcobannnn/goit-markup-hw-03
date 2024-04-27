@@ -11,13 +11,16 @@ p{
     line-height:1;
 
 }
-.nav-label>.list-one:first-child .a-links-one {
+.nav-label>.list-one:first-child{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     
 }
 .a-links-one{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color:#2e2f42;
 }
 .a-links-one:hover{
