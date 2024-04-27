@@ -23,15 +23,11 @@ p{
     letter-spacing: 0.02em;
     color:#2e2f42;
 }
-.a-links-one:visited{
+.nav-label .list-one>.a-links-one:hover{
     color: #404bbf;
     cursor: pointer;
 }
-.a-links-one:hover{
-    color: #404bbf;
-    cursor: pointer;
-}
-.a-links-one:focus{
+.nav-label .list-one>.a-links-one:focus{
     color: #404bbf;
     cursor: pointer;
 }
