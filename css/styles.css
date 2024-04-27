@@ -184,7 +184,6 @@ span{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:#4d5ae5;
 }
 .footer-m .spans{
     color: #f4f4fd;
@@ -193,4 +192,7 @@ span{
     line-height: 1.5;
     color:#f4f4fd;
     letter-spacing: 0.02em;
+}
+.footer-m>.a-links{
+    color:#4d5ae5;
 }
