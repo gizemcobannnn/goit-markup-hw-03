@@ -184,8 +184,8 @@ span{
 .footer-m .spans{
     color: #f4f4fd;
 }
-.footer-m>p{
+.logo-footer-text{
     line-height: 1.5;
-    color:#4d5ae5;
+    color:#f4f4fd;
     letter-spacing: 0.02em;
 }
