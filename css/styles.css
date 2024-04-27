@@ -25,11 +25,11 @@ p{
 }
 
 .a-links-one:hover{
-    color: #404BBF;
+    color: #404bbf;
     cursor: pointer;
 }
 .a-links-one:focus{
-    color: #404BBF;
+    color: #404bbf;
     cursor: pointer;
 
 }
@@ -178,8 +178,7 @@ span{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:#4d5ae5 ;
-    
+    color:#4d5ae5;
 }
 .footer-m .spans{
     color: #f4f4fd;
