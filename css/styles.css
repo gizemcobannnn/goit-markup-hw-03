@@ -39,7 +39,7 @@ p{
     color: #404bbf;
     cursor: pointer;
 }
-.section-one>.o-button{
+.section-one>.o-but{
     cursor: pointer;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif ;
@@ -49,10 +49,10 @@ p{
     letter-spacing: 0.04em;
     color: #ffffff;
 }
-.section-one>.o-button:hover{
+.section-one>.o-but:hover{
     background-color: #404BBF;
 }
-.section-one>.o-button:focus{
+.section-one>.o-but:focus{
     background-color: #404BBF;
 }
 .a-link-one{
