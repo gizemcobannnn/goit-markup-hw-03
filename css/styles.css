@@ -1,3 +1,10 @@
+header{
+    width: 1440px;
+    height: 72px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;  
+}
 body{
     font-family: Roboto, sans-serif;
     color:#434455;
@@ -14,15 +21,20 @@ p{
 /* */
 .nav-label .list-one{
     display: flex;
-    flex-direction: row;
-    gap:40px;
+    flex-direction: row;  
+}
+.nav-label .list-one li{
+    list-style-type:none;
 }
 /* */
 .contacts ul{
     display: flex;
-    flex-direction: row;
-}
+    flex-direction: row; 
 
+}
+.contacts ul li{
+    list-style-type:none;
+}
 .nav-label>.list-one:first-child{
     font-weight: 500;
     line-height: 1.5;
@@ -58,6 +70,9 @@ main{
 }
 .section-one>.o-but{
     cursor: pointer;
+    width: 169px;
+    height: 56px;
+    border-radius:4px ;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif ;
     font-weight: 500;
@@ -249,19 +264,23 @@ section{
     text-transform: uppercase;
     max-width: 100%;
     height: 312px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 1020px;
+    padding-left: 156px;
 }
 .footer-m .spans{
     color: #f4f4fd;
 }
 .footer-m>.a-links{
     color:#4d5ae5;
-    margin-left:312px;
-    margin-right: 312px; 
 }
 .logo-footer-text{
     line-height: 1.5;
     color:#f4f4fd;
     letter-spacing: 0.02em;
-    margin-left:312px;
-    margin-right: 312px;
+    width: 264px;
+    height: 112px;
+    text-align: justify;
+    text-transform: initial;
 }
