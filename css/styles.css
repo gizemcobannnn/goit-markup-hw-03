@@ -1,15 +1,20 @@
 header{
-    width: 1440px;
-    height: 72px;
     display: flex;
     justify-content:space-between;
     align-items:center;  
+    display: flex;
+    margin-left: 156px;
+    margin-right: 156px;
+    width: 1440px;
+    height: 72px;
 }
 body{
     font-family: Roboto, sans-serif;
     color:#434455;
     background-color:white;
     font-weight:normal;
+    width:1440px;
+    height:3300px;
     
 }
 
@@ -19,9 +24,14 @@ p{
 }
 /* */
 /* */
+.nav-label a, .contacts a {
+    text-decoration: none;
+}
 .nav-label .list-one{
     display: flex;
-    flex-direction: row;  
+    flex-direction: row; 
+    gap:40px; 
+    text-decoration: none;
 }
 .nav-label .list-one li{
     list-style-type:none;
@@ -30,7 +40,8 @@ p{
 .contacts ul{
     display: flex;
     flex-direction: row; 
-
+    gap:40px; 
+    margin-right: 156px;
 }
 .contacts ul li{
     list-style-type:none;
@@ -68,6 +79,7 @@ main{
     margin-left: 156px;
     margin-right: 156px;
 }
+
 .section-one>.o-but{
     cursor: pointer;
     width: 169px;
@@ -123,42 +135,77 @@ span{
 }
 /* */
 section{
-    margin: 120px;
-    width: 1128px;
+    justify-content: center;
 
 }
 .section-one{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
     background-color: #2e2f42;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    /* */
     height: 600px; 
     width: 1440px; 
+    padding: 188px 0;
 }
-.section-one>h1{
+.section-one .first-header{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px; 
+    height: 120px;
+    margin-left: 472px;
+    margin-right: 472px;
+    margin-top: 188px;
+    margin-bottom: 48px;
+}
+.section-one .o-but{
+    display: block; 
+    min-width: 169px;
+    height: 56px;
+    border: none; 
+    background-color:#4d5ae5 ;
+    border-radius: 4px; 
+    color:white;
+    cursor: pointer; 
+
 }
 /* */
 .section-two{
     margin-top: 120px;
     margin-bottom: 120px;
+    height: 104px;
+    width: 1128px;
+    margin-left: 156px;
+    margin-right: 156px;
+    padding: 120px 0;
+    line-height: 24px;
+
 }
+
 .section-two .list{
     display: flex;
     flex-direction: row;
-    padding: 24px;
+    list-style-type: none;
+    gap:24px;
 }
+/* emin degilim*/
+.section-two .list.list-one:first-child{
+    width: calc((100% - 72px) / 4); 
+}
+
 .section-two .third-header{
     font-weight: 500;
     font-size: 20px ;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
+    margin-bottom: 8px;
 
 }
 .section-two p{
@@ -169,16 +216,23 @@ section{
 
 }
 /* */
+.section-three{
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4FD;
+    width: 1440px;
+    height: 732px;
+    align-items: center;
+    padding: 120px 0;
+}
 .section-three .our-team-list{
     display: flex;
     flex-direction: row;
-    max-width: max-content;
-    margin-top: 120px;
- }
-.section-three{
-    background-color: #F4F4FD;
+    list-style-type: none;
+    gap:24px;
 
-}
+ }
+
 .section-three .du-header{
     font-size: 36px;
     line-height: 1.11;
@@ -186,10 +240,19 @@ section{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+    margin-left: 639px;
+    margin-right: 639px;
 }
+/* sundaki son 2 nin yeri burası degil saırım*/
 .section-three li{
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4); 
+    border-radius: 0px 0px 4px 4px ;
 
+}
+.section-three .know{
+    padding: 32px 0;
 }
 .section-three .list-header{
     font-weight: 500 ;
@@ -197,15 +260,29 @@ section{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42 ;
+    text-align: center; 
+    margin-bottom: 8px;
 
 }
 .section-three p{
+    text-align: center; 
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
 }
+.section-four{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 1000px;
+    padding: 120px 0 120px 0 ;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 120px;
+    margin-top: 120px;
 
+}
 .section-four h2{
     font-size: 36px;
     line-height: 1.11;
@@ -214,6 +291,7 @@ section{
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .section-four h3{
     font-weight: 500;
@@ -221,6 +299,7 @@ section{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
+    margin-bottom: 72px;
 }
 .section-four .parag{
     font-size: 16px;
@@ -229,20 +308,36 @@ section{
     color:#434455;
 }
 /* emin degil*/
-.section-four{
-    padding: 25px;
-    width: 1128px;
-    height: 1000px;
-}
 
 .section-four .first-three-images .portfolio-list-one{
     display: flex;
     flex-direction: row;
-}
+    list-style-type: none;
+    column-gap: 24px;
+    row-gap: 48px ;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 
+}
+.section-four .first-three-images {
+    display: flex;
+    margin-bottom: 48px;
+}
 .section-four .last-three-images .portfolio-list-two{
     display: flex;
     flex-direction: row;
+    list-style-type: none;
+    column-gap: 24px;
+    row-gap: 48px ;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+/*sunu nereye koysam bilemedim : width: calc((100% - 48px) / 3); */
+.section-four .last-three-images {
+    display: flex;
+    margin-bottom: 48px;
 }
 /* */
 .header-three{
@@ -262,24 +357,23 @@ section{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    max-width: 100%;
+    width: 1440px;
     height: 312px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 1020px;
-    padding-left: 156px;
+    padding: 100px 0 100px;
 }
 .footer-m .spans{
     color: #f4f4fd;
 }
-.footer-m>.a-links{
+.footer-m .a-links{
     color:#4d5ae5;
+    display: inline-block; 
+    margin-bottom: 16px;
 }
 .logo-footer-text{
     line-height: 1.5;
     color:#f4f4fd;
     letter-spacing: 0.02em;
-    width: 264px;
+    max-width: 264px;
     height: 112px;
     text-align: justify;
     text-transform: initial;
