@@ -8,6 +8,12 @@ header{
     width: 1440px;
     height: 72px;
 }
+.head-container{
+    display: flex; 
+    width: 1158px;
+    margin: 0 ;
+    padding: 0 15px;
+}
 body{
     font-family: Roboto, sans-serif;
     color:#434455;
@@ -24,6 +30,11 @@ p{
 }
 /* */
 /* */
+.nav-label{
+    display: flex; 
+    align-items: center; 
+    margin-right: 76px;
+}
 .nav-label a, .contacts a {
     text-decoration: none;
 }
@@ -52,6 +63,9 @@ p{
     letter-spacing: 0.02em;
     
 }
+.a-link-one{
+    border-bottom: 1px solid #e7e9fc;
+}
 .a-links-one{
     font-weight: 500;
     line-height: 1.5;
@@ -73,6 +87,9 @@ p{
 .a-links:focus{
     color: #404bbf;
     cursor: pointer;
+}
+.a-links{
+    padding: 24px 0;
 }
 main{
     align-content: center;
@@ -187,8 +204,19 @@ section{
     line-height: 24px;
 
 }
-
-.section-two .list{
+.section-two .visually-hidden{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+.section-two .listt-two{
     display: flex;
     flex-direction: row;
     list-style-type: none;
