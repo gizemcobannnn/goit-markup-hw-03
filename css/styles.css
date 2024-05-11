@@ -43,6 +43,7 @@ p{
     flex-direction: row; 
     gap:40px; 
     text-decoration: none;
+    padding: 24px 0;
 }
 .nav-label .list-one li{
     list-style-type:none;
@@ -63,8 +64,9 @@ p{
     letter-spacing: 0.02em;
     
 }
-.a-link-one{
+.head-container .a-link-one{
     border-bottom: 1px solid #e7e9fc;
+    margin-right: 76px;
 }
 .a-links-one{
     font-weight: 500;
@@ -90,6 +92,9 @@ p{
 }
 .a-links{
     padding: 24px 0;
+}
+.ccontacts-list{
+    margin: 0 auto ;
 }
 main{
     align-content: center;
@@ -234,6 +239,7 @@ section{
     letter-spacing: 0.02em;
     color:#2e2f42;
     margin-bottom: 8px;
+    width: calc((100% - 72px) / 4); 
 
 }
 .section-two p{
@@ -344,7 +350,7 @@ section{
     display: flex;
     margin-bottom: 48px;
 }
-.section-four .first-three-images .portfolio-list-one{
+.section-four  .portfolio-list{
     display: flex;
     flex-wrap: wrap; 
     flex-direction: row;
@@ -358,18 +364,6 @@ section{
 
 }
 
-.section-four .last-three-images .portfolio-list-two{
-    display: flex;
-    flex-wrap: wrap; 
-    flex-direction: row;
-    column-gap: 24px ;
-    list-style-type: none;
-    column-gap: 24px;
-    row-gap: 48px ;
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-}
 .appdiv{
     padding: 32px 16px ;
     border: 1px solid #e7e9fc; 
