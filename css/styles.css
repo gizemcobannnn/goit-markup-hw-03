@@ -1,15 +1,22 @@
-header{
+img{
+    display: block;
+}
+.headerc-one{
     display: flex;
     justify-content:space-between;
     align-items:center;  
     display: flex;
+    font-weight: 500;
+    line-height: 1.5;
     margin-left: 156px;
     margin-right: 156px;
     width: 1440px;
     height: 72px;
+    border-bottom: 1px solid #e7e9fc ;
 }
 .head-container{
     display: flex; 
+    align-items: center;
     width: 1158px;
     margin: 0 ;
     padding: 0 15px;
@@ -73,6 +80,7 @@ p{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2e2f42;
+    padding: 24px 0;
 }
 .a-links-one:hover{
     color: #404bbf;
@@ -226,12 +234,8 @@ section{
     flex-direction: row;
     list-style-type: none;
     gap:24px;
+    width: calc((100% - 72px) / 4);
 }
-/* emin degilim*/
-.section-two .list.list-one:first-child{
-    width: calc((100% - 72px) / 4); 
-}
-
 .section-two .third-header{
     font-weight: 500;
     font-size: 20px ;
@@ -341,15 +345,6 @@ section{
     letter-spacing: 0.02em;
     color:#434455;
 }
-/* emin degil*/
-.section-four .first-three-images {
-    display: flex;
-    margin-bottom: 48px;
-}
-.section-four .last-three-images {
-    display: flex;
-    margin-bottom: 48px;
-}
 .section-four  .portfolio-list{
     display: flex;
     flex-wrap: wrap; 
@@ -361,7 +356,11 @@ section{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    margin-bottom: 48px;
 
+}
+.section-four .li-port{
+    width: calc((100% - 48px) / 3); 
 }
 
 .appdiv{
