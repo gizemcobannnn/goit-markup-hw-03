@@ -59,7 +59,7 @@ p{
     display: flex;
     flex-direction: row; 
     gap:40px; 
-    margin : 0;
+    margin: 0 auto;
 }
 .contacts ul li{
     list-style-type:none;
@@ -356,7 +356,7 @@ section{
     margin-bottom: 48px;
 
 }
-.section-four .li-port{
+.section-four .li-portfolio{
     width: calc((100% - 48px) / 3);
 }
 
