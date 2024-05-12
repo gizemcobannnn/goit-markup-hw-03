@@ -17,7 +17,7 @@ img{
     display: flex; 
     align-items: center;
     width: 1158px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0 15px;
 }
 body{
@@ -280,7 +280,7 @@ section{
     margin-left: 639px;
     margin-right: 639px;
 }
-/* sundaki son 2 nin yeri burası degil saırım*/
+
 .section-three li{
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4); 
