@@ -340,6 +340,9 @@ section{
     text-transform: capitalize;
     margin-bottom: 72px;
 }
+.section-four .container{
+    margin: 0 auto;
+}
 .section-four .header-three{
     font-weight: 500;
     font-size: 20px ;
