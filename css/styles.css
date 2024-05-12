@@ -1,6 +1,9 @@
 img{
     display: block;
 }
+h{
+    margin:0;
+}
 .headerc-one{
     display: flex;
     justify-content:space-between;
@@ -15,10 +18,12 @@ img{
 }
 .head-container{
     display: flex; 
-    align-items: center;
-    width: 1158px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0 15px;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1158px;
 }
 body{
     font-family: Roboto, sans-serif;
@@ -358,7 +363,7 @@ section{
     margin-bottom: 48px;
 
 }
-.section-four .portfolio-list:first-child{
+.section-four .li-portfolio{
     width: calc((100% - 48px) / 3); 
 }
 
