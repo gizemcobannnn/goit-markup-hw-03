@@ -4,6 +4,15 @@ img{
 body{
     margin: 0;
 }
+
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .headerc-one{
     display: flex;
     justify-content:space-between;
@@ -365,11 +374,8 @@ section{
     list-style-type: none;
     column-gap: 24px;
     row-gap: 48px ;
- 
     border: 1px solid #e7e9fc;
     border-top: none;
-
-
 }
 .portfolio-list .li-portfolio{
     width: calc((100% - 48px) / 3); 
