@@ -368,7 +368,7 @@ section{
     margin-bottom: 48px;
 
 }
-.section-four .li-portfolio{
+.portfolio-list .li-portfolio{
     width: calc((100% - 48px) / 3); 
 }
 
