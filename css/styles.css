@@ -4,6 +4,9 @@ img{
 h{
     margin:0;
 }
+body{
+    margin: 0;
+}
 .headerc-one{
     display: flex;
     justify-content:space-between;
@@ -20,6 +23,7 @@ h{
     display: flex; 
     margin: 0 auto;
     padding: 0 15px;
+    width: 1158px; 
     justify-content: space-between;
 }
 .container{
