@@ -247,6 +247,7 @@ section{
 }
 .section-two .listt-two{
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
     list-style-type: none;
     gap:24px;
